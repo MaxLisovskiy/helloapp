@@ -1,8 +1,13 @@
-﻿class Program
+﻿using System;
+
+class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("hello everyone");
+
+        greetWhite();
+        greetBlack();
     }
 
     static void greetWhite()
